@@ -20,7 +20,7 @@ A lightweight, single-file web tool to generate standard BIP-39 mnemonics from p
    ```
 2. **Go Offline:** Disconnect your device from the internet (highly recommended for maximum security).
 3. **Open the tool:** Launch index.html in any modern web browser.
-4. Generate:
+4. **Generate:**
   * Enter your Salt (can be a number or a simple word).
   * Enter your Secret Phrase (use long, complex sentences for better security).
   * Click "Generate".
