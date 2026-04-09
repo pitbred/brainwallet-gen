@@ -13,12 +13,18 @@ A lightweight, single-file web tool to generate standard BIP-39 mnemonics from p
 
 ## 🚀 How to Use
 
-1. Download the `index.html` file.
-2. (Optional but Recommended) Open the file on an air-gapped (offline) device.
-3. Enter your unique combination of secrets:
-   - **Salt Value:** A memorable number or word.
-   - **Secret:** High-entropy phrases (supports Cyrillic/UTF-8 for extra security).
-4. Use the generated mnemonic to restore your wallet in any BIP-39 compatible software (Exodus, BlueWallet, Electrum, etc.).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/pitbred/brainwallet-gen.git
+   cd brainwallet-gen
+   ```
+2. **Go Offline:** Disconnect your device from the internet (highly recommended for maximum security).
+3. **Open the tool:** Launch index.html in any modern web browser.
+4. Generate:
+  * Enter your Salt (can be a number or a simple word).
+  * Enter your Secret Phrase (use long, complex sentences for better security).
+  * Click "Generate".
+5. **Clean up:** After you have safely noted your 12 words, **close the browser tab and clear your browser cache** (or simply use Incognito mode) to ensure no traces remain in memory.  
 
 ## 🛠 Configuration (12 vs 24 words)
 
